@@ -1,0 +1,6 @@
+import sys
+
+try:
+	print(error)
+except BaseException as error:
+	print("error occured.", error)
